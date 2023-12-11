@@ -1,0 +1,28 @@
+body{ 
+    background-color: #212121;
+}
+
+@font-face {
+    font-family: 'DigitalClock';
+    src: url('digital-7.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.clock-container {
+    font-size: 4em;
+    text-align: center;
+    margin: 200px auto 0;
+    color: aquamarine;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+.clock-container span {
+    padding: 20px;
+    background-color: rgb(8, 66, 26);
+    border-radius: 10px;    
+    border: ridge 2px;
+    border-color:cadetblue;
+    font-family: 'DigitalClock', Times, serif;
+}
